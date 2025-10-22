@@ -91,11 +91,11 @@ print("Best Parameters:", grid_search.best_params_)
 # Predicting on the test set using the best model
 y_pred = best_model.predict(X_test)
 
-# Calculate accuracy and print classification metrics
+print("NAME:Mena Rossini R")
+print("Register Number:212222040099")
 print()
-accuracy = accuracy_score(y_test, y_pred)
-print("Accuracy:", accuracy)
-print("Classification Report:\n", classification_report(y_test, y_pred))
+print("Best Parameters:",grid_search.best_params_)
+print("Classisification Report:\n",classification_report(y_test,y_pred))
 
 # Confusion Matrix
 conf_matrix = confusion_matrix(y_test, y_pred)
@@ -123,4 +123,5 @@ plt.show()
 
 ## Result:
 Thus, the SVM model was successfully implemented to classify food items for diabetic patients, with hyperparameter tuning optimizing the model's performance.
+
 
