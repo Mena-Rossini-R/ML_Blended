@@ -113,7 +113,8 @@ plt.show()
 
 ### EXTRACTION OF BEST MODEL:
 
-![Screenshot 2025-05-14 205625](https://github.com/user-attachments/assets/b5a83984-6455-466f-afee-499a609490ad)
+<img width="438" height="46" alt="Screenshot 2025-10-22 114252" src="https://github.com/user-attachments/assets/3ab530b9-2c44-4fc9-8301-99c5b7a30900" />
+
 
 ### CONFUSION MATRIX:
 ![Screenshot 2025-05-14 205620](https://github.com/user-attachments/assets/f398fce0-c8b5-4472-a752-2847b30b293b)
@@ -121,6 +122,7 @@ plt.show()
 
 ## Result:
 Thus, the SVM model was successfully implemented to classify food items for diabetic patients, with hyperparameter tuning optimizing the model's performance.
+
 
 
 
