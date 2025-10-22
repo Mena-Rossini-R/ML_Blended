@@ -1,6 +1,6 @@
 ## BLENDED LEARNING
 ## Implementation of Support Vector Machine for Classifying Food Choices for Diabetic Patients
-### DATE:08-05-2025
+### DATE:
 ## AIM:
 To implement a Support Vector Machine (SVM) model to classify food items and optimize hyperparameters for better accuracy.
 
@@ -32,8 +32,8 @@ To implement a Support Vector Machine (SVM) model to classify food items and opt
 ```
 
 Program to implement SVM for food classification for diabetic patients.
-Developed by: AJITH.A
-RegisterNumber: 212224230012
+Developed by: Mena Rossini R
+RegisterNumber: 212222040099
 
 # Import necessary libraries
 import pandas as pd
@@ -123,3 +123,4 @@ plt.show()
 
 ## Result:
 Thus, the SVM model was successfully implemented to classify food items for diabetic patients, with hyperparameter tuning optimizing the model's performance.
+
