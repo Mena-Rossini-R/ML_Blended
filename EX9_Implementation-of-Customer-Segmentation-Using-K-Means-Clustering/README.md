@@ -9,36 +9,34 @@ To implement customer segmentation using K-Means clustering on the Mall Customer
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Load the Data
+1. Load the Data
 Import the dataset to start the clustering analysis process.
 
-2.Explore the Data
+2. Explore the Data
 Analyze the dataset to understand distributions, patterns, and key characteristics.
 
-3.Select Relevant Features
+3. Select Relevant Features
 Identify the most informative features to improve clustering accuracy and relevance.
 
-4.Preprocess the Data
+4. Preprocess the Data
 Clean and scale the data to prepare it for clustering.
 
-5.Determine Optimal Number of Clusters
+5. Determine Optimal Number of Clusters
 Use techniques like the elbow method to find the ideal number of clusters.
 
-6.Train the Model with K-Means Clustering
+6. Train the Model with K-Means Clustering
 Apply the K-Means algorithm to group data points into clusters based on similarity.
 
-7.Analyze and Visualize Clusters
+7. Analyze and Visualize Clusters
 Examine and visualize the resulting clusters to interpret patterns and relationships.
 
 ## Program:
 ```
 /*
 Program to implement customer segmentation using K-Means clustering on the Mall Customers dataset.
-Developed by: GANESH PRABHU J
-RegisterNumber: 212223220023
+Developed by: DAKSHA C
+RegisterNumber: 212224230048
 */
-```
-```
 import os
 os.environ["OMP_NUM_THREADS"] = "1"  # Prevent MKL memory leak warning on Windows
 
@@ -54,8 +52,7 @@ import warnings
 warnings.filterwarnings("ignore", message="KMeans is known to have a memory leak on Windows with MKL")
 
 # Step 1: Load the dataset
-url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-ML0187EN-SkillsNetwork/labs/module%203/data/CustomerData.csv"
-data = pd.read_csv(url)
+data = pd.read_csv('CustomerData.csv')
 
 # Step 2: Explore the data
 print(data.head())
@@ -116,19 +113,12 @@ plt.xlabel('Annual Income (k$)')
 plt.ylabel('Spending Score (1-100)')
 plt.legend(title='Cluster')
 plt.show()
+
 ```
 
 ## Output:
-
-![WhatsApp Image 2025-05-25 at 11 29 31_f04eadfd](https://github.com/user-attachments/assets/a8b1bd7d-e809-4f89-901f-c7ea72f1030d)
-
-
-![WhatsApp Image 2025-05-25 at 11 29 40_0e071a83](https://github.com/user-attachments/assets/ff56740f-0e45-4def-9f41-c9072335c913)
-
-
-![WhatsApp Image 2025-05-25 at 11 29 46_29d98d7e](https://github.com/user-attachments/assets/326139be-7d1c-41ae-abf7-bfbf79b46dd1)
-
-
+![image](https://github.com/user-attachments/assets/487ac3e5-6423-4745-8506-4bff49e94ff0)
+![image](https://github.com/user-attachments/assets/90d0f6b6-97f3-41cc-a439-ef3a9cfcebd2)
 
 ## Result:
 Thus, customer segmentation was successfully implemented using K-Means clustering, grouping customers into distinct segments based on their annual income and spending score. 
